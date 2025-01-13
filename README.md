@@ -92,6 +92,7 @@ xgb_model.set_hyperparameters(
     num_round=1000
 )
 ```
+<img width="1675" alt="image" src="https://github.com/user-attachments/assets/071d04d4-c482-486e-88ca-f4fc3e083dee" />
 
 ## Step 4: Train the Model
 ```python
