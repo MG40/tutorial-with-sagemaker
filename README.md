@@ -14,6 +14,8 @@ Additionally, running XGBoost in a hybrid cloud scenario provides the ability to
 
 This hybrid model ensures maximum flexibility and cost efficiency, making it a suitable choice for enterprise-scale machine learning workflows.
 
+For further details, refer to the [AWS SageMaker Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-console.html).
+
 ## Prerequisites
 - Install the AWS SageMaker SDK by running:
   ```bash
