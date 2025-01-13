@@ -6,7 +6,13 @@ Running XGBoost as a container instead of a SageMaker notebook instance can sign
 - **Scaling**: Use multiple containers for parallel processing only when necessary.
 - **Flexibility**: Integrate training directly into CI/CD pipelines or other workflows.
 
-This approach minimizes long-term operational expenses while offering a scalable, efficient, and cost-effective alternative to traditional notebook instances.
+Additionally, running XGBoost in a hybrid cloud scenario provides the ability to leverage on-premises resources alongside cloud infrastructure. This approach enables:
+
+- **Data locality**: Process sensitive or large-scale datasets on-premises while leveraging cloud resources for compute-intensive tasks.
+- **Cost optimization**: Use on-premises infrastructure for consistent workloads and scale to the cloud for peak demands.
+- **Compliance**: Ensure sensitive data stays on-premises to meet regulatory requirements while using cloud for other operations.
+
+This hybrid model ensures maximum flexibility and cost efficiency, making it a suitable choice for enterprise-scale machine learning workflows.
 
 ## Prerequisites
 - Install the AWS SageMaker SDK by running:
